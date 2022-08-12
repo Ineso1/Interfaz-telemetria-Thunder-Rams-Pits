@@ -1,0 +1,42 @@
+﻿<Window x:Class="DataSender.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:ed="http://schemas.microsoft.com/expression/2010/drawing"
+        xmlns:local="clr-namespace:DataSender"
+        mc:Ignorable="d"
+        Title="Sender Panel" Height="450" Width="800" Background="#FFA74CBD">
+    <Grid Background="#FF14161D">
+        <Label Content="Coords" HorizontalAlignment="Left" Margin="54,20,0,0" VerticalAlignment="Top" Foreground="#FFF641F2" FontWeight="Bold" FontStyle="Italic"/>
+        <TextBox x:Name="lat" HorizontalAlignment="Left" Margin="101,52,0,0" TextWrapping="Wrap" Text="0.000000" VerticalAlignment="Top" Foreground="White" Background="{x:Null}" BorderBrush="{x:Null}"/>
+        <Label Content="Lat." HorizontalAlignment="Left" Margin="54,46,0,0" VerticalAlignment="Top" Foreground="White" FontSize="14"/>
+        <TextBox x:Name="lng" HorizontalAlignment="Left" Margin="101,82,0,0" TextWrapping="Wrap" Text="0.000000" VerticalAlignment="Top" Foreground="White" Background="{x:Null}" BorderBrush="{x:Null}"/>
+        <Label Content="Lng." HorizontalAlignment="Left" Margin="54,76,0,0" VerticalAlignment="Top" Foreground="White" FontSize="14"/>
+        <Button Content="Send" HorizontalAlignment="Left" Margin="161,23,0,0" VerticalAlignment="Top" Background="{x:Null}" Foreground="#FFF69C41" BorderBrush="{x:Null}" Cursor="Hand" Click="CambioCoords"/>
+        <Label Content="Eje X" HorizontalAlignment="Left" Margin="52,163,0,0" VerticalAlignment="Top" Foreground="White"/>
+        <Label Content="Eje Y" HorizontalAlignment="Left" Margin="52,190,0,0" VerticalAlignment="Top" Foreground="White"/>
+        <Label Content="Eje Z" HorizontalAlignment="Left" Margin="52,217,0,0" VerticalAlignment="Top" Foreground="White"/>
+        <Slider HorizontalAlignment="Left" Margin="101,167,0,0" VerticalAlignment="Top" Width="120" Foreground="{x:Null}" Maximum="180" TickPlacement="BottomRight" TickFrequency="1" ValueChanged="CambioAnguloX"/>
+        <Slider HorizontalAlignment="Left" Margin="101,195,0,0" VerticalAlignment="Top" Width="120" Foreground="{x:Null}" Maximum="180" TickPlacement="BottomRight" TickFrequency="1" ValueChanged="CambioAnguloY"/>
+        <Slider HorizontalAlignment="Left" Margin="101,221,0,0" VerticalAlignment="Top" Width="120" Foreground="{x:Null}" Maximum="180" TickPlacement="BottomRight" TickFrequency="1" ValueChanged="CambioAnguloZ"/>
+        <Label Content="Angle" HorizontalAlignment="Left" Margin="54,136,0,0" VerticalAlignment="Top" Foreground="#FF15B62E" FontWeight="Bold" FontStyle="Italic"/>
+        <Label Name="lblTime" Content="00:00:00 a. m." FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="#FFFEFEFE" Margin="658,17,0,0" />
+        <Label Content="Tiempo real : " HorizontalAlignment="Left" Margin="560,20,0,0" VerticalAlignment="Top" Foreground="White"/>
+        <Label Content="Actual lap : " HorizontalAlignment="Left" Margin="560,49,0,0" VerticalAlignment="Top" Foreground="White"/>
+        <Label x:Name="instance" Content="00:00:00.00" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="#FFFEFEFE" Margin="658,45,0,0" />
+        <Label x:Name="ejeX" Content="0°" HorizontalAlignment="Left" Margin="232,163,0,0" VerticalAlignment="Top" Foreground="White" FontWeight="Normal"/>
+        <Label x:Name="ejeY" Content="0°" HorizontalAlignment="Left" Margin="232,190,0,0" VerticalAlignment="Top" Foreground="White" FontWeight="Normal"/>
+        <Label x:Name="ejeZ" Content="0°" HorizontalAlignment="Left" Margin="232,217,0,0" VerticalAlignment="Top" Foreground="White" FontWeight="Normal"/>
+        <Label Content="Lap" HorizontalAlignment="Left" Margin="340,12,0,0" VerticalAlignment="Top" Foreground="#FF1F99CD" FontWeight="Bold" FontStyle="Italic" FontSize="24" Background="{x:Null}"/>
+        <TextBox x:Name="lap" HorizontalAlignment="Left" Margin="400,16,0,0" TextWrapping="Wrap" FontWeight="Bold" Text="0" VerticalAlignment="Top" Width="64" SelectionTextBrush="{x:Null}" BorderBrush="{x:Null}" Background="{x:Null}" Foreground="White" FontSize="24" HorizontalContentAlignment="Center"/>
+        <Button Content="Change lap" HorizontalAlignment="Left" Margin="374,57,0,0" VerticalAlignment="Top" Background="{x:Null}" Foreground="#FFF69C41" BorderBrush="{x:Null}" Cursor="Hand" Click="CambioLap"/>
+        <Label Content="Battery" HorizontalAlignment="Left" Margin="325,106,0,0" FontWeight="Bold" VerticalAlignment="Top" Foreground="#FFB19DE8"/>
+        <Slider HorizontalAlignment="Center" Margin="0,138,0,0" VerticalAlignment="Top" Width="120" Foreground="{x:Null}" Maximum="100" TickPlacement="BottomRight" TickFrequency="1" ValueChanged="EstadoBateria"/>
+        <Label x:Name="batery" Content="0%" HorizontalAlignment="Left" Margin="422,101,0,0" FontWeight="Bold" VerticalAlignment="Top" Width="60" Foreground="White" FontSize="20"/>
+        <Label Content="Temperature" HorizontalAlignment="Left" Margin="40,264,0,0" VerticalAlignment="Top" FontWeight="Bold" Foreground="#FFFF5858"/>
+        <Slider HorizontalAlignment="Left" Margin="54,295,0,0" VerticalAlignment="Top" Width="167" Foreground="{x:Null}" Maximum="200" TickPlacement="BottomRight" TickFrequency="1" ValueChanged="CambioTemperatura" Height="23"/>
+        <Label x:Name="temperatura" Content="0°C" HorizontalAlignment="Left" Margin="182,259,0,0" FontWeight="Bold" VerticalAlignment="Top" Width="71" Foreground="White" FontSize="20"/>
+        <ProgressBar Name="temperatureBar" HorizontalAlignment="Left" Height="10" Margin="52,323,0,0" VerticalAlignment="Top" Width="166" Minimum="0" Maximum="200"/>
+    </Grid>
+</Window>

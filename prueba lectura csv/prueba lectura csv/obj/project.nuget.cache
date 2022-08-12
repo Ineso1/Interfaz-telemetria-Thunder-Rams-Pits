@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "PMT0Dl3JsL1kbeOgcqaMs4u6eS+tdtYsw/o9akitVHPesN/9u5gb5SgBRxPrspwkD2QqZAEUtdmQKG3X+7q7hQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\nessy\\Desktop\\Interfaces_C#\\prueba lectura csv\\prueba lectura csv\\prueba lectura csv.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nessy\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
+    "C:\\Users\\nessy\\.nuget\\packages\\system.drawing.common\\6.0.0\\system.drawing.common.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

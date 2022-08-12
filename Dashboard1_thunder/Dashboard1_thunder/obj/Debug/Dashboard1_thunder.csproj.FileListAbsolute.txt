@@ -1,0 +1,16 @@
+C:\Users\nessy\Desktop\Interfaces_C#\Dashboard1_thunder\Dashboard1_thunder\bin\Debug\Dashboard1_thunder.exe.config
+C:\Users\nessy\Desktop\Interfaces_C#\Dashboard1_thunder\Dashboard1_thunder\bin\Debug\Dashboard1_thunder.exe
+C:\Users\nessy\Desktop\Interfaces_C#\Dashboard1_thunder\Dashboard1_thunder\bin\Debug\Dashboard1_thunder.pdb
+C:\Users\nessy\Desktop\Interfaces_C#\Dashboard1_thunder\Dashboard1_thunder\obj\Debug\Dashboard1_thunder.csproj.AssemblyReference.cache
+C:\Users\nessy\Desktop\Interfaces_C#\Dashboard1_thunder\Dashboard1_thunder\obj\Debug\Dashboard1_thunder.csproj.SuggestedBindingRedirects.cache
+C:\Users\nessy\Desktop\Interfaces_C#\Dashboard1_thunder\Dashboard1_thunder\obj\Debug\MainWindow.g.cs
+C:\Users\nessy\Desktop\Interfaces_C#\Dashboard1_thunder\Dashboard1_thunder\obj\Debug\App.g.cs
+C:\Users\nessy\Desktop\Interfaces_C#\Dashboard1_thunder\Dashboard1_thunder\obj\Debug\Dashboard1_thunder_MarkupCompile.cache
+C:\Users\nessy\Desktop\Interfaces_C#\Dashboard1_thunder\Dashboard1_thunder\obj\Debug\Dashboard1_thunder_MarkupCompile.lref
+C:\Users\nessy\Desktop\Interfaces_C#\Dashboard1_thunder\Dashboard1_thunder\obj\Debug\MainWindow.baml
+C:\Users\nessy\Desktop\Interfaces_C#\Dashboard1_thunder\Dashboard1_thunder\obj\Debug\Dashboard1_thunder.g.resources
+C:\Users\nessy\Desktop\Interfaces_C#\Dashboard1_thunder\Dashboard1_thunder\obj\Debug\Dashboard1_thunder.Properties.Resources.resources
+C:\Users\nessy\Desktop\Interfaces_C#\Dashboard1_thunder\Dashboard1_thunder\obj\Debug\Dashboard1_thunder.csproj.GenerateResource.cache
+C:\Users\nessy\Desktop\Interfaces_C#\Dashboard1_thunder\Dashboard1_thunder\obj\Debug\Dashboard1_thunder.csproj.CoreCompileInputs.cache
+C:\Users\nessy\Desktop\Interfaces_C#\Dashboard1_thunder\Dashboard1_thunder\obj\Debug\Dashboard1_thunder.exe
+C:\Users\nessy\Desktop\Interfaces_C#\Dashboard1_thunder\Dashboard1_thunder\obj\Debug\Dashboard1_thunder.pdb

@@ -1,0 +1,34 @@
+﻿<Window x:Class="PruebaInterfaz1Framework.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PruebaInterfaz1Framework"
+        mc:Ignorable="d"
+        Title="Prueba MIH" Height="450" Width="800">
+    <Grid Background="#FF29282D">
+        <Button x:Name="en1_Copy" Content="Button" HorizontalAlignment="Left" Margin="131,302,0,0" VerticalAlignment="Top" FontWeight="Bold" Foreground="#FFF6F0F0" FontSize="16" Width="100" Height="50" Background="#FF3C3B41" Click="changeStateL3"/>
+        <Button x:Name="en1_Copy1" Content="Button" HorizontalAlignment="Left" Margin="131,75,0,0" VerticalAlignment="Top" FontWeight="Bold" Foreground="#FFF6F0F0" FontSize="16" Width="100" Height="50" Background="#FF3C3B41" Click="changeStateL1"/>
+        <Button x:Name="en1_Copy2" Content="Button" HorizontalAlignment="Left" Margin="131,0,0,0" VerticalAlignment="Center" FontWeight="Bold" Foreground="#FFF6F0F0" FontSize="16" Width="100" Height="50" Background="#FF3C3B41" Click="changeStateL2"/>
+        <ComboBox x:Name="Puertos" HorizontalAlignment="Left" Margin="625,75,0,0" VerticalAlignment="Top" Width="120" Background="#FF3C3B41" Text="Puerto" Foreground="Black" FontSize="20">
+            <ComboBoxItem Content="COM1" Background="#FF4B4A50"/>
+            <ComboBoxItem Content="COM2" Background="#FF4B4A50"/>
+            <ComboBoxItem Content="COM3" Background="#FF4B4A50"/>
+            <ComboBoxItem Content="COM4" Background="#FF4B4A50"/>
+        </ComboBox>
+        <Label Content="L1" HorizontalAlignment="Left" Margin="56,79,0,0" VerticalAlignment="Top" Foreground="White" HorizontalContentAlignment="Center" FontSize="24"/>
+        <Label Content="L2" HorizontalAlignment="Left" Margin="56,0,0,0" VerticalAlignment="Center" Foreground="White" HorizontalContentAlignment="Center" FontSize="24"/>
+        <Label Content="L3" HorizontalAlignment="Left" Margin="56,306,0,0" VerticalAlignment="Top" Foreground="White" HorizontalContentAlignment="Center" FontSize="24"/>
+        <Label Content="Puerto&#xD;&#xA;" HorizontalAlignment="Left" Margin="516,66,0,0" VerticalAlignment="Top" Foreground="White" HorizontalContentAlignment="Center" FontSize="24" Height="51"/>
+        <Label x:Name="estadoL1" Content="Off" HorizontalAlignment="Left" Margin="268,82,0,0" VerticalAlignment="Top" Foreground="White" FontSize="16" Background="Red" FontWeight="Bold" HorizontalContentAlignment="Center" Width="40" Height="36"/>
+        <Label x:Name="estadoL2" Content="Off" HorizontalAlignment="Left" Margin="268,195,0,0" VerticalAlignment="Top" Foreground="White" FontSize="16" Background="Red" FontWeight="Bold" HorizontalContentAlignment="Center" Width="40" Height="36"/>
+        <Label x:Name="estadoL3" Content="Off" HorizontalAlignment="Left" Margin="268,309,0,0" VerticalAlignment="Top" Foreground="White" FontSize="16" Background="Red" FontWeight="Bold" HorizontalContentAlignment="Center" Width="40" Height="36"/>
+        <ComboBox x:Name="frecuenciaBaudios" HorizontalAlignment="Left" Margin="625,141,0,0" VerticalAlignment="Top" Width="120" Background="#FF3C3B41" Text="Puerto" Foreground="Black" FontSize="20" SelectionChanged="CambioBaudios">
+            <ComboBoxItem Content="9600" Background="#FF4B4A50"/>
+            <ComboBoxItem Content="14400" Background="#FF4B4A50"/>
+            <ComboBoxItem Content="19200" Background="#FF4B4A50"/>
+            <ComboBoxItem Content="115200" Background="#FF4B4A50"/>
+        </ComboBox>
+        <Label Content="Baudios&#xA;" HorizontalAlignment="Left" Margin="509,132,0,0" VerticalAlignment="Top" Foreground="White" HorizontalContentAlignment="Center" FontSize="24" Height="51"/>
+    </Grid>
+</Window>

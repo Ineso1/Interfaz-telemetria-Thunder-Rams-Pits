@@ -1,0 +1,16 @@
+C:\Users\nessy\Desktop\Interfaces_C#\PruebaInterfaz1Framework\PruebaInterfaz1Framework\bin\Debug\PruebaInterfaz1Framework.exe.config
+C:\Users\nessy\Desktop\Interfaces_C#\PruebaInterfaz1Framework\PruebaInterfaz1Framework\bin\Debug\PruebaInterfaz1Framework.exe
+C:\Users\nessy\Desktop\Interfaces_C#\PruebaInterfaz1Framework\PruebaInterfaz1Framework\bin\Debug\PruebaInterfaz1Framework.pdb
+C:\Users\nessy\Desktop\Interfaces_C#\PruebaInterfaz1Framework\PruebaInterfaz1Framework\obj\Debug\PruebaInterfaz1Framework.csproj.AssemblyReference.cache
+C:\Users\nessy\Desktop\Interfaces_C#\PruebaInterfaz1Framework\PruebaInterfaz1Framework\obj\Debug\PruebaInterfaz1Framework.csproj.SuggestedBindingRedirects.cache
+C:\Users\nessy\Desktop\Interfaces_C#\PruebaInterfaz1Framework\PruebaInterfaz1Framework\obj\Debug\MainWindow.g.cs
+C:\Users\nessy\Desktop\Interfaces_C#\PruebaInterfaz1Framework\PruebaInterfaz1Framework\obj\Debug\App.g.cs
+C:\Users\nessy\Desktop\Interfaces_C#\PruebaInterfaz1Framework\PruebaInterfaz1Framework\obj\Debug\PruebaInterfaz1Framework_MarkupCompile.cache
+C:\Users\nessy\Desktop\Interfaces_C#\PruebaInterfaz1Framework\PruebaInterfaz1Framework\obj\Debug\PruebaInterfaz1Framework_MarkupCompile.lref
+C:\Users\nessy\Desktop\Interfaces_C#\PruebaInterfaz1Framework\PruebaInterfaz1Framework\obj\Debug\MainWindow.baml
+C:\Users\nessy\Desktop\Interfaces_C#\PruebaInterfaz1Framework\PruebaInterfaz1Framework\obj\Debug\PruebaInterfaz1Framework.g.resources
+C:\Users\nessy\Desktop\Interfaces_C#\PruebaInterfaz1Framework\PruebaInterfaz1Framework\obj\Debug\PruebaInterfaz1Framework.Properties.Resources.resources
+C:\Users\nessy\Desktop\Interfaces_C#\PruebaInterfaz1Framework\PruebaInterfaz1Framework\obj\Debug\PruebaInterfaz1Framework.csproj.GenerateResource.cache
+C:\Users\nessy\Desktop\Interfaces_C#\PruebaInterfaz1Framework\PruebaInterfaz1Framework\obj\Debug\PruebaInterfaz1Framework.csproj.CoreCompileInputs.cache
+C:\Users\nessy\Desktop\Interfaces_C#\PruebaInterfaz1Framework\PruebaInterfaz1Framework\obj\Debug\PruebaInterfaz1Framework.exe
+C:\Users\nessy\Desktop\Interfaces_C#\PruebaInterfaz1Framework\PruebaInterfaz1Framework\obj\Debug\PruebaInterfaz1Framework.pdb

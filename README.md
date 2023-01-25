@@ -5,3 +5,9 @@ This project is a telemetry system designed to monitor a prototype electric car 
 
 Summary
 Telemetry application for electric car monitoring for fully electric car competition real-time location monitoring, track map creation from reconnaissance lap, car sensor monitoring
+
+
+Previous telemetry app
+https://github.com/Ineso1/Interfaz-Telemetria-Thunder-Rams
+
+![59D202BB-E54F-4781-AC39-E2DDFB5707AF](https://user-images.githubusercontent.com/84602829/214519555-6d7f48b9-cb02-4c36-ab29-e3f583f6637b.jpg)
